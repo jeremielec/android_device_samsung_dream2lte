@@ -22,6 +22,7 @@ DEVICE_PATH := device/samsung/dream2lte
 TARGET_OTA_ASSERT_DEVICE := dream2lte
 
 # Kernel
+TARGET_KERNEL_SOURCE := kernel/samsung/dream2lte
 TARGET_KERNEL_CONFIG := exynos8895-dream2lte_defconfig
 
 # inherit from the proprietary version
